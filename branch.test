@@ -1,2 +1,26 @@
 This is a test file for branch meraging.
+<<<<<<< Updated upstream
 A world is coming...
+=======
+<<<<<<< HEAD
+A world is coming, another change, done by master...
+=======
+A world is coming, do you know the time?...
+>>>>>>> test1
+
+git merge --no-ff -m "merge with no-ff" dev # --no-ff: don't use fast forward, which can save branch message when deleting it
+
+commonly used pattern
+(1) master (2) dev (3) user1 (4) user2
+#----------------#-------------------#     master
+ -              -                  -
+  -            -                  -
+   #----------#---------#--------#         dev
+   - -     - -
+   -  -  -  -
+   ----#----------------------             user1
+   -     -
+   #----#----------------                  user2
+
+
+>>>>>>> Stashed changes

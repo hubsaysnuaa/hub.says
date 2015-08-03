@@ -18,3 +18,5 @@ git reset HEAD <file-name>
 
 git remote add origin git@github.com:<user-name>/<repository-name>.git
 git push -u origin master
+
+git clone <https-or-git address>
