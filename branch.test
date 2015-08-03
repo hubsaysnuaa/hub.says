@@ -1,2 +1,6 @@
 This is a test file for branch meraging.
+<<<<<<< HEAD
 A world is coming, another change, done by master...
+=======
+A world is coming, do you know the time?...
+>>>>>>> test1
