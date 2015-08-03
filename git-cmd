@@ -11,3 +11,6 @@ git log --pretty=oneline
 git reset --hard HEAD^ # HEAD^^, HEAD~10
 git reset --hard <ID> 
 git reflog # log each command
+
+git checkout -- <file-name>
+git reset HEAD <file-name>
