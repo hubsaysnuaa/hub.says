@@ -1,0 +1,12 @@
+git checkout -b dev # create a branch 'dev' and switch to it
+git branch dev & git checkout dev # same result as previous command
+
+git branch # check all branches, current one use *
+
+git checkout master # switch to master branch
+
+git merge dev # merge branch 'dev' to current branch
+git branch -d dev # delete branch 'dev'
+
+git log --graph
+
