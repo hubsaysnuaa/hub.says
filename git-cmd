@@ -1,0 +1,13 @@
+git init # a empty repository
+
+git add <file-name>
+git commit -m "<explain the change>"
+
+git status # check status
+git diff # check the difference
+
+git log # check the changing history
+git log --pretty=oneline
+git reset --hard HEAD^ # HEAD^^, HEAD~10
+git reset --hard <ID> 
+git reflog # log each command
